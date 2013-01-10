@@ -9,6 +9,7 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "DemoTableViewCell.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -26,10 +27,32 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSData* data = [NSData dataWithContentsOfURL:
+                        [NSURL URLWithString:@"http://warm-eyrie-4354.herokuapp.com/feed.json"]];
+        [self performSelectorOnMainThread:@selector(readFeed:)
+                               withObject:data waitUntilDone:YES];
+    });
+    
+    //[self readFeed];
+    
+}
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+- (void)readFeed:(NSData *)data {
+    NSError* error;
+    
+    _objects = [[NSMutableArray alloc] init];
+
+    _objects = [NSJSONSerialization
+                          JSONObjectWithData:data
+                          options:NSJSONReadingAllowFragments
+                          error:&error];
+
+    [self.tableView reloadData];
+    
+    NSLog(@"dd");
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -62,17 +85,34 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    DemoTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    NSDictionary *object = _objects[indexPath.row];
+    if (object) {
+        
+        cell.itemName.text = [object objectForKey:@"desc"];
+        
+        NSString *imgSrc = [object objectForKey:@"src"];
+        NSURL *url = [NSURL URLWithString:imgSrc];
+        NSData *data = [NSData dataWithContentsOfURL:url];
+        UIImage *image = [UIImage imageWithData:data];
+        cell.mainImage.image = image;
+
+        cell.itemUrl.text = [object objectForKey:@"attrib"];
+        cell.itemUrl.textColor = [UIColor blueColor];
+        cell.itemUrlText.text = [object objectForKey:@"attrib"];
+        cell.itemUrlText.textColor = [UIColor blueColor];
+
+        cell.itemPerson.text = [[[object objectForKey:@"user"] objectForKey:@"username"] uppercaseString];
+        cell.personImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[[object objectForKey:@"user"] objectForKey:@"avatar"] objectForKey:@"src"]]]];
+    }
     return cell;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    return NO;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
@@ -110,4 +150,8 @@
     }
 }
 
+- (void)viewDidUnload {
+    [self setTableView:nil];
+    [super viewDidUnload];
+}
 @end

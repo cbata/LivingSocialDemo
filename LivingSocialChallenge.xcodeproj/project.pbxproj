@@ -7,107 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB545B5C169F5AE500074B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB545B5B169F5AE500074B26 /* UIKit.framework */; };
-		AB545B5E169F5AE500074B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB545B5D169F5AE500074B26 /* Foundation.framework */; };
-		AB545B60169F5AE500074B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB545B5F169F5AE500074B26 /* CoreGraphics.framework */; };
-		AB545B66169F5AE500074B26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB545B64169F5AE500074B26 /* InfoPlist.strings */; };
-		AB545B68169F5AE500074B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB545B67169F5AE500074B26 /* main.m */; };
-		AB545B6C169F5AE500074B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB545B6B169F5AE500074B26 /* AppDelegate.m */; };
-		AB545B6E169F5AE500074B26 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB545B6D169F5AE500074B26 /* Default.png */; };
-		AB545B70169F5AE500074B26 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB545B6F169F5AE500074B26 /* Default@2x.png */; };
-		AB545B72169F5AE500074B26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB545B71169F5AE500074B26 /* Default-568h@2x.png */; };
-		AB545B75169F5AE500074B26 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB545B73169F5AE500074B26 /* MainStoryboard.storyboard */; };
-		AB545B78169F5AE500074B26 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB545B77169F5AE500074B26 /* MasterViewController.m */; };
-		AB545B7B169F5AE500074B26 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB545B7A169F5AE500074B26 /* DetailViewController.m */; };
+		ABBCECBA169F0F5F0079E5D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCECB9169F0F5F0079E5D3 /* UIKit.framework */; };
+		ABBCECBC169F0F5F0079E5D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCECBB169F0F5F0079E5D3 /* Foundation.framework */; };
+		ABBCECBE169F0F5F0079E5D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBCECBD169F0F5F0079E5D3 /* CoreGraphics.framework */; };
+		ABBCECC4169F0F600079E5D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBCECC2169F0F600079E5D3 /* InfoPlist.strings */; };
+		ABBCECC6169F0F600079E5D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCECC5169F0F600079E5D3 /* main.m */; };
+		ABBCECCA169F0F600079E5D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCECC9169F0F600079E5D3 /* AppDelegate.m */; };
+		ABBCECCC169F0F600079E5D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBCECCB169F0F600079E5D3 /* Default.png */; };
+		ABBCECCE169F0F600079E5D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBCECCD169F0F600079E5D3 /* Default@2x.png */; };
+		ABBCECD0169F0F600079E5D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBCECCF169F0F600079E5D3 /* Default-568h@2x.png */; };
+		ABBCECD3169F0F600079E5D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBCECD1169F0F600079E5D3 /* MainStoryboard.storyboard */; };
+		ABBCECD6169F0F600079E5D3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCECD5169F0F600079E5D3 /* MasterViewController.m */; };
+		ABBCECD9169F0F600079E5D3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCECD8169F0F600079E5D3 /* DetailViewController.m */; };
+		ABBCECF1169F232C0079E5D3 /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCECF0169F232C0079E5D3 /* DemoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB545B57169F5AE500074B26 /* LivingSocialChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingSocialChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB545B5B169F5AE500074B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AB545B5D169F5AE500074B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB545B5F169F5AE500074B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB545B63169F5AE500074B26 /* LivingSocialChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LivingSocialChallenge-Info.plist"; sourceTree = "<group>"; };
-		AB545B65169F5AE500074B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB545B67169F5AE500074B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB545B69169F5AE500074B26 /* LivingSocialChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivingSocialChallenge-Prefix.pch"; sourceTree = "<group>"; };
-		AB545B6A169F5AE500074B26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AB545B6B169F5AE500074B26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB545B6D169F5AE500074B26 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		AB545B6F169F5AE500074B26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		AB545B71169F5AE500074B26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AB545B74169F5AE500074B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AB545B76169F5AE500074B26 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		AB545B77169F5AE500074B26 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		AB545B79169F5AE500074B26 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		AB545B7A169F5AE500074B26 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ABBCECB5169F0F5F0079E5D3 /* LivingSocialChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingSocialChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBCECB9169F0F5F0079E5D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBCECBB169F0F5F0079E5D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBCECBD169F0F5F0079E5D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABBCECC1169F0F600079E5D3 /* LivingSocialChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LivingSocialChallenge-Info.plist"; sourceTree = "<group>"; };
+		ABBCECC3169F0F600079E5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBCECC5169F0F600079E5D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBCECC7169F0F600079E5D3 /* LivingSocialChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivingSocialChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		ABBCECC8169F0F600079E5D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABBCECC9169F0F600079E5D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABBCECCB169F0F600079E5D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABBCECCD169F0F600079E5D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABBCECCF169F0F600079E5D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABBCECD2169F0F600079E5D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ABBCECD4169F0F600079E5D3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ABBCECD5169F0F600079E5D3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ABBCECD7169F0F600079E5D3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ABBCECD8169F0F600079E5D3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ABBCECEF169F232C0079E5D3 /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoTableViewCell.h; path = ../DemoTableViewCell.h; sourceTree = "<group>"; };
+		ABBCECF0169F232C0079E5D3 /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoTableViewCell.m; path = ../DemoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB545B54169F5AE500074B26 /* Frameworks */ = {
+		ABBCECB2169F0F5F0079E5D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB545B5C169F5AE500074B26 /* UIKit.framework in Frameworks */,
-				AB545B5E169F5AE500074B26 /* Foundation.framework in Frameworks */,
-				AB545B60169F5AE500074B26 /* CoreGraphics.framework in Frameworks */,
+				ABBCECBA169F0F5F0079E5D3 /* UIKit.framework in Frameworks */,
+				ABBCECBC169F0F5F0079E5D3 /* Foundation.framework in Frameworks */,
+				ABBCECBE169F0F5F0079E5D3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB545B4C169F5AE500074B26 = {
+		ABBCECAA169F0F5F0079E5D3 = {
 			isa = PBXGroup;
 			children = (
-				AB545B61169F5AE500074B26 /* LivingSocialChallenge */,
-				AB545B5A169F5AE500074B26 /* Frameworks */,
-				AB545B58169F5AE500074B26 /* Products */,
+				ABBCECBF169F0F600079E5D3 /* LivingSocialChallenge */,
+				ABBCECB8169F0F5F0079E5D3 /* Frameworks */,
+				ABBCECB6169F0F5F0079E5D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB545B58169F5AE500074B26 /* Products */ = {
+		ABBCECB6169F0F5F0079E5D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB545B57169F5AE500074B26 /* LivingSocialChallenge.app */,
+				ABBCECB5169F0F5F0079E5D3 /* LivingSocialChallenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB545B5A169F5AE500074B26 /* Frameworks */ = {
+		ABBCECB8169F0F5F0079E5D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB545B5B169F5AE500074B26 /* UIKit.framework */,
-				AB545B5D169F5AE500074B26 /* Foundation.framework */,
-				AB545B5F169F5AE500074B26 /* CoreGraphics.framework */,
+				ABBCECB9169F0F5F0079E5D3 /* UIKit.framework */,
+				ABBCECBB169F0F5F0079E5D3 /* Foundation.framework */,
+				ABBCECBD169F0F5F0079E5D3 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB545B61169F5AE500074B26 /* LivingSocialChallenge */ = {
+		ABBCECBF169F0F600079E5D3 /* LivingSocialChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				AB545B6A169F5AE500074B26 /* AppDelegate.h */,
-				AB545B6B169F5AE500074B26 /* AppDelegate.m */,
-				AB545B73169F5AE500074B26 /* MainStoryboard.storyboard */,
-				AB545B76169F5AE500074B26 /* MasterViewController.h */,
-				AB545B77169F5AE500074B26 /* MasterViewController.m */,
-				AB545B79169F5AE500074B26 /* DetailViewController.h */,
-				AB545B7A169F5AE500074B26 /* DetailViewController.m */,
-				AB545B62169F5AE500074B26 /* Supporting Files */,
+				ABBCECEF169F232C0079E5D3 /* DemoTableViewCell.h */,
+				ABBCECF0169F232C0079E5D3 /* DemoTableViewCell.m */,
+				ABBCECC8169F0F600079E5D3 /* AppDelegate.h */,
+				ABBCECC9169F0F600079E5D3 /* AppDelegate.m */,
+				ABBCECD1169F0F600079E5D3 /* MainStoryboard.storyboard */,
+				ABBCECD4169F0F600079E5D3 /* MasterViewController.h */,
+				ABBCECD5169F0F600079E5D3 /* MasterViewController.m */,
+				ABBCECD7169F0F600079E5D3 /* DetailViewController.h */,
+				ABBCECD8169F0F600079E5D3 /* DetailViewController.m */,
+				ABBCECC0169F0F600079E5D3 /* Supporting Files */,
 			);
 			path = LivingSocialChallenge;
 			sourceTree = "<group>";
 		};
-		AB545B62169F5AE500074B26 /* Supporting Files */ = {
+		ABBCECC0169F0F600079E5D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB545B63169F5AE500074B26 /* LivingSocialChallenge-Info.plist */,
-				AB545B64169F5AE500074B26 /* InfoPlist.strings */,
-				AB545B67169F5AE500074B26 /* main.m */,
-				AB545B69169F5AE500074B26 /* LivingSocialChallenge-Prefix.pch */,
-				AB545B6D169F5AE500074B26 /* Default.png */,
-				AB545B6F169F5AE500074B26 /* Default@2x.png */,
-				AB545B71169F5AE500074B26 /* Default-568h@2x.png */,
+				ABBCECC1169F0F600079E5D3 /* LivingSocialChallenge-Info.plist */,
+				ABBCECC2169F0F600079E5D3 /* InfoPlist.strings */,
+				ABBCECC5169F0F600079E5D3 /* main.m */,
+				ABBCECC7169F0F600079E5D3 /* LivingSocialChallenge-Prefix.pch */,
+				ABBCECCB169F0F600079E5D3 /* Default.png */,
+				ABBCECCD169F0F600079E5D3 /* Default@2x.png */,
+				ABBCECCF169F0F600079E5D3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +120,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB545B56169F5AE500074B26 /* LivingSocialChallenge */ = {
+		ABBCECB4169F0F5F0079E5D3 /* LivingSocialChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB545B7E169F5AE500074B26 /* Build configuration list for PBXNativeTarget "LivingSocialChallenge" */;
+			buildConfigurationList = ABBCECDC169F0F600079E5D3 /* Build configuration list for PBXNativeTarget "LivingSocialChallenge" */;
 			buildPhases = (
-				AB545B53169F5AE500074B26 /* Sources */,
-				AB545B54169F5AE500074B26 /* Frameworks */,
-				AB545B55169F5AE500074B26 /* Resources */,
+				ABBCECB1169F0F5F0079E5D3 /* Sources */,
+				ABBCECB2169F0F5F0079E5D3 /* Frameworks */,
+				ABBCECB3169F0F5F0079E5D3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,77 +134,78 @@
 			);
 			name = LivingSocialChallenge;
 			productName = LivingSocialChallenge;
-			productReference = AB545B57169F5AE500074B26 /* LivingSocialChallenge.app */;
+			productReference = ABBCECB5169F0F5F0079E5D3 /* LivingSocialChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB545B4E169F5AE500074B26 /* Project object */ = {
+		ABBCECAC169F0F5F0079E5D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Chris Bata";
 			};
-			buildConfigurationList = AB545B51169F5AE500074B26 /* Build configuration list for PBXProject "LivingSocialChallenge" */;
+			buildConfigurationList = ABBCECAF169F0F5F0079E5D3 /* Build configuration list for PBXProject "LivingSocialChallenge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AB545B4C169F5AE500074B26;
-			productRefGroup = AB545B58169F5AE500074B26 /* Products */;
+			mainGroup = ABBCECAA169F0F5F0079E5D3;
+			productRefGroup = ABBCECB6169F0F5F0079E5D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB545B56169F5AE500074B26 /* LivingSocialChallenge */,
+				ABBCECB4169F0F5F0079E5D3 /* LivingSocialChallenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB545B55169F5AE500074B26 /* Resources */ = {
+		ABBCECB3169F0F5F0079E5D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB545B66169F5AE500074B26 /* InfoPlist.strings in Resources */,
-				AB545B6E169F5AE500074B26 /* Default.png in Resources */,
-				AB545B70169F5AE500074B26 /* Default@2x.png in Resources */,
-				AB545B72169F5AE500074B26 /* Default-568h@2x.png in Resources */,
-				AB545B75169F5AE500074B26 /* MainStoryboard.storyboard in Resources */,
+				ABBCECC4169F0F600079E5D3 /* InfoPlist.strings in Resources */,
+				ABBCECCC169F0F600079E5D3 /* Default.png in Resources */,
+				ABBCECCE169F0F600079E5D3 /* Default@2x.png in Resources */,
+				ABBCECD0169F0F600079E5D3 /* Default-568h@2x.png in Resources */,
+				ABBCECD3169F0F600079E5D3 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB545B53169F5AE500074B26 /* Sources */ = {
+		ABBCECB1169F0F5F0079E5D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB545B68169F5AE500074B26 /* main.m in Sources */,
-				AB545B6C169F5AE500074B26 /* AppDelegate.m in Sources */,
-				AB545B78169F5AE500074B26 /* MasterViewController.m in Sources */,
-				AB545B7B169F5AE500074B26 /* DetailViewController.m in Sources */,
+				ABBCECC6169F0F600079E5D3 /* main.m in Sources */,
+				ABBCECCA169F0F600079E5D3 /* AppDelegate.m in Sources */,
+				ABBCECD6169F0F600079E5D3 /* MasterViewController.m in Sources */,
+				ABBCECD9169F0F600079E5D3 /* DetailViewController.m in Sources */,
+				ABBCECF1169F232C0079E5D3 /* DemoTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB545B64169F5AE500074B26 /* InfoPlist.strings */ = {
+		ABBCECC2169F0F600079E5D3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB545B65169F5AE500074B26 /* en */,
+				ABBCECC3169F0F600079E5D3 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AB545B73169F5AE500074B26 /* MainStoryboard.storyboard */ = {
+		ABBCECD1169F0F600079E5D3 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB545B74169F5AE500074B26 /* en */,
+				ABBCECD2169F0F600079E5D3 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -207,7 +213,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB545B7C169F5AE500074B26 /* Debug */ = {
+		ABBCECDA169F0F600079E5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		AB545B7D169F5AE500074B26 /* Release */ = {
+		ABBCECDB169F0F600079E5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,23 +262,25 @@
 			};
 			name = Release;
 		};
-		AB545B7F169F5AE500074B26 /* Debug */ = {
+		ABBCECDD169F0F600079E5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivingSocialChallenge/LivingSocialChallenge-Prefix.pch";
 				INFOPLIST_FILE = "LivingSocialChallenge/LivingSocialChallenge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		AB545B80169F5AE500074B26 /* Release */ = {
+		ABBCECDE169F0F600079E5D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivingSocialChallenge/LivingSocialChallenge-Prefix.pch";
 				INFOPLIST_FILE = "LivingSocialChallenge/LivingSocialChallenge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,24 +289,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB545B51169F5AE500074B26 /* Build configuration list for PBXProject "LivingSocialChallenge" */ = {
+		ABBCECAF169F0F5F0079E5D3 /* Build configuration list for PBXProject "LivingSocialChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB545B7C169F5AE500074B26 /* Debug */,
-				AB545B7D169F5AE500074B26 /* Release */,
+				ABBCECDA169F0F600079E5D3 /* Debug */,
+				ABBCECDB169F0F600079E5D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB545B7E169F5AE500074B26 /* Build configuration list for PBXNativeTarget "LivingSocialChallenge" */ = {
+		ABBCECDC169F0F600079E5D3 /* Build configuration list for PBXNativeTarget "LivingSocialChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB545B7F169F5AE500074B26 /* Debug */,
-				AB545B80169F5AE500074B26 /* Release */,
+				ABBCECDD169F0F600079E5D3 /* Debug */,
+				ABBCECDE169F0F600079E5D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB545B4E169F5AE500074B26 /* Project object */;
+	rootObject = ABBCECAC169F0F5F0079E5D3 /* Project object */;
 }
